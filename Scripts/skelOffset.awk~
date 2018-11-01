@@ -1,0 +1,13 @@
+BEGIN {
+  offX = 132 - 13 - 11;
+  offY = 0 - 13 - 10;
+  offZ = 0 - 13 -10;
+}
+
+{ 
+  newX = $1 + offX;
+  newY = $2 + offY;
+  newZ = $3 + offZ;
+
+  print newX " " newY " " newZ " " $4 " " $5
+}

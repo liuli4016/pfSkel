@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CritPts - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cornea\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../Common" /I "../../TNT" /I "../../JAMA" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "NOMINMAX" /Fp"Debug/CritPts.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\users\Nick\pfSkel\v1.3\Common\common.cpp"
+"E:\users\Nick\pfSkel\v1.3\CritPts\critPts.cpp"
+"E:\users\Nick\pfSkel\v1.3\CritPts\driver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cornea\LOCALS~1\Temp\RSPFD.tmp" 
+Creating temporary file "C:\DOCUME~1\cornea\LOCALS~1\Temp\RSPFE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CritPts.pdb" /debug /machine:I386 /out:"Debug/CritPts.exe" /pdbtype:sept 
+.\Debug\common.obj
+.\Debug\critPts.obj
+.\Debug\driver.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\cornea\LOCALS~1\Temp\RSPFE.tmp"
+<h3>Output Window</h3>
+Compiling...
+common.cpp
+critPts.cpp
+driver.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CritPts.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
